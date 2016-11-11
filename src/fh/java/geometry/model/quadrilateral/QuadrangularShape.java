@@ -1,7 +1,7 @@
 package fh.java.geometry.model.quadrilateral;
 
-import fh.java.geometry.model.GeometricShape;
+import fh.java.geometry.model.TwoDimensionalShape;
 
-public abstract class QuadrangularShape extends GeometricShape {
+public abstract class QuadrangularShape extends TwoDimensionalShape {
 
 }

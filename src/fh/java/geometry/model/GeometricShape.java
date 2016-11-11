@@ -22,10 +22,6 @@ public abstract class GeometricShape {
         this.y = y;
     }
 
-	public abstract double calcArea();
-
-    public abstract double calcPerimeter();
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -35,7 +31,6 @@ public abstract class GeometricShape {
 
         if (x != that.x) return false;
         return y == that.y;
-
     }
 
     @Override

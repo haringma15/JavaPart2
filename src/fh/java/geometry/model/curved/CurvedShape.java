@@ -1,10 +1,7 @@
 package fh.java.geometry.model.curved;
 
-import fh.java.geometry.model.GeometricShape;
+import fh.java.geometry.model.TwoDimensionalShape;
 
-public abstract class CurvedShape extends GeometricShape {
-
-
-
+public abstract class CurvedShape extends TwoDimensionalShape {
 
 }
